@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #about-us{
+    padding: 80px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display:flex ;
+    background-size: cover;
+    background-position: top 60px center;
+}
+#about-us .container-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px auto;
+}
+#about-us .about-image{
+    display: flex;
+    justify-content: space-between;
+}
+#about-us .about-image img{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+#about-us .about-content{
+    display: block;
+      padding: 5px 10px;
+}
+#about-us .about-content h1 span{
+    color: #19719c;
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#about-us .about-content h2{
+    font-size: 30px;
+    color: coral;
+    margin-top: 25px;
+}
+#about-us .about-content p{
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    opacity: 0.8;
+}
+#about-us .about-content h3{
+  color: #19719c;
+}
+.about-content ul{
+        margin: 1rem 0;
+        font-size: 1.2rem;
+      }
+.about-content ul li{
+        margin: 0;
+        list-style: none;
+        background: url(img/2.png) left center no-repeat;
+        background-size: 18px;
+        padding-left: 1.5rem;
+        margin: 0.4rem 0;
+        font-weight: 600;
+        opacity: 0.9;
+      }
+      .about-content ul li{
+        font-weight: 400;
+      }
+#about-us .about-btn {
+    font-size: 17px;
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#about-home{
+  background-image: url("img/ภาพ/home\ about.png");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: top 60px center;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#about-home h1 span{
+   font-size: 60px;
+}
+#about-home span{
+    color: #334eac;
+}
+#about-home h1{
+    color: #53a7d8;
+}
+#about-home h5{
+   font-size: 25px;
+   color: #19719c;
+}
+.title h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+  color: coral;
+  font-family: 'Courier New', Courier, monospace;
+}
+.title h1::after{
+  content:"";
+  height: 4px;
+  width: 360px;
+  background-color:coral;
+  display: block;
+  margin: auto;
+}
+.services-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px auto;
+  text-align: center;
+}
+.services-card{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 20px;
+  padding: 20px 20px;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+.services-card .icon{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.services-card h2{
+  font-size: 28px;
+  color: coral;
+  margin-bottom: 20px;
+}
+.services-card p{
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: #5e5e5e;
+}
+
+  </style>
+</head>
+
+<body>
+
+  <!--nevigation-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white  py-3 fixed-top">
+    <div class="container-fluid">
+      <img src="img/logo นอน.png" width=230px alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" a
+        ria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i id="bar" class='bx bx-menu'></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produc.html">Produc</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <i class='bx bx-search'></i>
+
+          </li>
+
+
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="about-home">
+    <div class="container text-center mt-5 py-5">
+      <h1><span> About </span> Filter Plus Co., Ltd. </h1>
+      <h5>LOVEING HEALTH,CARING FRO THE WORLD</h5>
+    </div>
+  </section>
+
+
+  <section id="about-us" class="container-fluid sproduct my-5 pt-5">
+    <div class="container-about" class="row mt-5">
+      <div  class="about-image" class="col-lg-5 col-md-12 col-12">
+        <img class="img-fluid w-100 pb-1" src="img/ภาพ/about.png" id="mainImg" alt="">
+      </div>
+      <div class="col-lg-6 col-md-12 col-12">
+
+        <div class="about-content">
+          <h1><span>About</span> Us</h1>
+          <h2>why choose us?</h2>
+          <br>
+          <h3>2024</h3>
+        <p>เริ่มจดทะเบียนก่อตั้งบริษัทในชื่อ บริษัท ฟิลเตอร์ พลัส จำกัด (Filter plus co.,ltd) เป็นบริษัทที่เน้นจำหน่ายผลิตภัณฑ์ด้านอุตสาหกรรมการกรองเป็นหลัก อาทิเช่น ถุงกรองฝุ่น ใส่กรองอากาศและน้ำมัน 
+          ใส้กรองน้ำ พรีฟิลเตอร์ ที่ใช้ในโรงงานอุตสาหกรรม อาคารสำนักงาน โรงพยาบาล และอาคารขนาดใหญ่ </p>
+
+          <h3>ที่มา</h3>
+        <p>ฟิลเตอร์ พลัส จำกัด (Filter plus co.,ltd) พึ่งเริ่มก่อตั้งในปี 2024 เมื่อวันที่ 18 มิถุนายน 2024 ภายใต้ชื่อบริษัทฟิลเตอร์ พลัส  
+          โดยเริ่มธุรกิจจากการเป็นตัวแทนจำหน่าย Filter กรองอากาศ อาทิเช่น ถุงกรองฝุ่น ใส้กรอง ผ้ากรอง ที่ใช้ในโรงงานอุตสาหกรรมต่างๆ นอกเหนือจากการจัดจำน่าย Filter 
+          กรองฝุ่นแล้วทางบริษัทยังจำหน่ายอุปกรณ์ Filter สำหรับกรองน้ำอีกด้วย รวมถึงมีบริการติดตั้งและตรวจสภาพการทำงานของอุปกรณ์เพื่อให้มั่นใจว่าการทำงานเป็น
+          ปกติและปลอดภัยต่อลูกค้าและผู้มาใช้งาน </p>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="container-about" class="row mt-5">
+      <div  class="about-image" class="col-lg-5 col-md-12 col-12">
+        <img class="img-fluid w-100 pb-1" src="img/ภาพ/about 3.png" id="mainImg" alt="">
+      </div>
+      <div class="col-lg-6 col-md-12 col-12">
+
+        <div class="about-content">
+
+          <h3>ผู้ให้บริการ</h3>
+        <p>ฟิลเตอร์ พลัส จำกัด (Filter plus co.,ltd) เป็นบริษัทสัญชาติไทยที่ประกอบธุรกิจด้านการกรองฝุ่นอากาศและน้ำในโรงงานอุสาหกรรม อาคารสำนักงาน โรงพยาบาล และอาคารขนาดใหญ่ 
+          ภายใต้วิสัยทัศน์มุ่งพัฒนาการเป็นผู้ให้ บริการแบบครบวงจรที่จะสนับสนุนลูกค้าเพื่อทำให้เกิดความพึงพอใจและได้คุณภาพตามมาตรฐานอย่างต่อเนื่อง โดยมีเป้าหมายทางธุรกิจที่เน้นต่อยอดธุรกิจด้วยการส่งมอบผลิตภัณฑ์ที่คุณภาพและมาตรฐานที่ยอดเยี่ยมแก่ลูกค้า
+          </p>
+
+          <h3>วิสัยทัศน์ </h3>
+            <ul>
+              <li> <span>เป็นบริษัทการค้าและบริการด้าน Filter เครื่องกรองน้ำและอากาศมุ่งพัฒนาการเป็นผู้ให้</span></li>
+              <li> <span>บริการแบบครบวงจรที่จะสนับสนุนลูกค้าเพื่อทำให้เกิดความพึงพอใจและได้คุณภาพตามมาตรฐานอย่างต่อเนื่อง</span></li>
+              </ul>
+
+              <h3>พันธกิจ</h3>
+            <ul>
+              <li> <span>พัฒนาผลิตภัณฑ์และบริการอย่างต่อเนื่องเพื่อการเจริญเติบโตและเพิ่มคุณค่าอย่างยั่งยืน</span></li>
+              <li> <span>คำนึงถึงผู้มีส่วนได้ส่วนเสียทุกฝ่ายอย่างโปร่งใส เป็นธรรมและเท่าเทียม </span></li>
+              <li> <span>ดำเนินธุรกิจอย่างมีจริยธรรมด้วยความรับผิดชอบต่อสั่งคมและสิ่งแวดล้อม</span></li>
+              </ul>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="container-fluid sproduct my-5 pt-5 services-section">
+  <div class="title">
+    <h1>Our Services</h1>
+  </div>
+  <div class="services-container">
+    <div class="services-card">
+      <div class="icon">
+        <i class='bx bxs-wrench'></i>
+      </div>
+      <h2>บริการติดตั้ง</h2>
+      <p>มีเจ้าหน้าที่ผู้ชำนาญงานพร้อมเครื่องมือและอุปกรณ์ในการติดตั้ง
+        พร้อมแก้ไขปัญหาพื้นฐานเพื่อให้เครื่องสามารถใช้งานได้อย่างต่อเนื่อง</p>
+    </div>
+
+    <div class="services-card">
+      <div class="icon">
+        <i class='bx bxs-cog bx-rotate-90' ></i>
+      </div>
+      <h2>บริการซ่อมบำรุง</h2>
+      <p>มีบริการดูแลหลังการขายและสนับสนุนการซ่อมบำรุง 
+        สามารถดำเนินการปฏิบัติงานที่หน้างานได้
+        เราพร้อมจัดส่งพนักงานของเราไปยังหน้างานเพื่อให้บริการ</p>
+    </div>
+
+    <div class="services-card">
+      <div class="icon">
+        <i class='bx bxs-phone-call' ></i>
+      </div>
+      <h2>บริการให้คำปรึกษา</h2>
+      <p>ลูกค้าสามรถติดต่อสอบถามข้อมูลพื้นฐานก่อนตัดสินใจซื้อได้เรา
+        มีเจ้าหน้าที่ Call Center สำหรับติดต่อประสานงานระหว่างลูกค้า
+        และพนักงานฝ่ายบริการ</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+  
+
+  <footer class="mt-5 py-5">
+    <div class="row container-fluid mx-auto pt-5">
+      <div class="footer-one col-lg-3 col-md-6 col-12">
+        <img src="img/p.png" width=100px alt="">
+        <p class="pt-1">"เป็นบริษัทการค้าและบริการด้าน Filter 
+          <br>เครื่องกรองน้ำและอากาศมุ่งพัฒนาการเป็นผู้ให้
+          <br>บริการแบบครบวงจรที่จะสนับสนุนลูกค้าเพื่อทำให้เกิด
+          <br>ความพึงพอใจและได้คุณภาพตามมาตรฐานอย่างต่อเนื่อง"</p>
+    </div>
+    <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+      <h5 class="pb-2">featured</h5>
+      <ul class="text-uppercase list-unstyled">
+        <li><a href="about.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="produc.html">Produc</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+      <h5 class="pb-2">Contact us</h5>
+        <div>
+          <h6 class="text-uppercase">ADDRES</h6>
+          <p>159/110 ถนนเคหะร่มเกล้า 64 แขวงคลองต้นนุ่น
+            <br>เขตลาดกระบัง กรุงเทพมหานคร 10520</p>
+        </div>
+        <div>
+          <h6 class="text-uppercase">PHONE</h6>
+          <p>063-956-8152</p>
+        </div>
+        <div>
+          <h6 class="text-uppercase">EMAIL</h6>
+          <p>filterplus.fp@gmail.com</p>
+        </div>
+        <div>
+          <h6 class="text-uppercase">LINE</h6>
+          <p>ID:fp2612</p>
+        </div>
+    </div>
+  
+    <div class="footer-one col-lg-3 col-md-6 col-12">
+      <h5 class="pb-2">picture</h5>
+      <div class="row">
+        <img class="img-fluid w-25 h-100 m-2" src="img/21.jpg" alt="">
+        <img class="img-fluid w-25 h-100 m-2" src="img/22.jpg" alt="">
+        <img class="img-fluid w-25 h-100 m-2" src="img/23.jpg" alt="">
+        <img class="img-fluid w-25 h-100 m-2" src="img/24.jpg" alt="">
+        <img class="img-fluid w-25 h-100 m-2" src="img/25.jpg" alt="">
+      </div>
+      </div>
+    </div>
+  
+    <div class="comprlight">
+      <div class="row container mx-auto">
+  
+        <div class="col-lg-3 col-md-6 col-12 mb-4">
+          <img src="img/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ.png" width=200px alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+          <p>ฟิลเตอร์ พลัส จำกัด &#9426; 2024 All Rights Reserved</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <a href="#"><i class='bx bxl-facebook' ></i></a>
+          <a href="https://line.me/ti/p/ma9fn08xrV"><i class='bx bxs-message-rounded-dots' ></i></a>
+        </div>
+  
+      </div>
+    </div>
+    
+  </footer>
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"></script>
+  
+  </body>
+  </html>
