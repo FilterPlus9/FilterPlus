@@ -32,6 +32,13 @@ h5{
 h6{
     color: #ffff;
 }
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
 button{
     font-size: 0.8rem;
     font-weight: 700;
@@ -298,12 +305,7 @@ position: relative;
     border-radius: 5px;
 }
 
-/*prodect*/
-.product {
-    cursor: pointer;
-    margin-bottom: 2rem;
-}
-
+/*blog*/
 #blog{
     display: flex;
     flex-direction: column;
@@ -364,6 +366,12 @@ position: relative;
     color:cornflowerblue;
     font-size: 1rem;
     font-weight: 400;
+}
+
+/*prodect*/
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .product img{
