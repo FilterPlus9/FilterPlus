@@ -305,6 +305,57 @@ position: relative;
     border-radius: 5px;
 }
 
+.title h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .title h1::after{
+    content:"";
+    height: 4px;
+    width: 360px;
+    background-color:coral;
+    display: block;
+    margin: auto;
+  }
+  .services-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+  }
+  .services-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+  }
+  .services-card .icon{
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .services-card h2{
+    font-size: 28px;
+    color: coral;
+    margin-bottom: 20px;
+  }
+  .services-card p{
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #5e5e5e;
+  }
+
+
 /*blog*/
 #blog{
     display: flex;
